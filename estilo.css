@@ -332,11 +332,11 @@ html{
     100%{width: 85%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .creativo{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s creativo forwards;
 }
-@keyframes creatividad {
+@keyframes creativo {
     0%{width: 0%;}
     100%{width: 90%;}
 
