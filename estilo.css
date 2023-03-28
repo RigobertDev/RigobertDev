@@ -339,6 +339,7 @@ html{
 @keyframes creatividad {
     0%{width: 0%;}
     100%{width: 90%;}
+}
 
 .skills .skill .responsabilidad{
     width: 0%;
@@ -357,7 +358,6 @@ html{
     0%{width: 0%;}
     100%{width: 95%;}
 }
-    
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
