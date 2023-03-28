@@ -360,15 +360,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        <a href="mailto:sidrigobert32@gmail.com">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></a>
+                    <form action="https://formspree.io/f/xknavdpn" method="POST">
+                    <input type="text" placeholder="Tú Nombre" name="name">
+                    <input type="text" placeholder="Número telefónico" name="telefono">
+                    <input type="text" placeholder="Dirección de correo" name="email">
+                    <input type="text" placeholder="Tema" name="tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
