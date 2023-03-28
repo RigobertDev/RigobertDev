@@ -28,7 +28,7 @@ function efectoHabilidades(){
         habilidades[4].classList.add("linux");
         habilidades[5].classList.add("comunicacion");
         habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
+        habilidades[7].classList.add("creativo");
         habilidades[8].classList.add("responsabilidad");
         habilidades[9].classList.add("liderazgo");
     }
